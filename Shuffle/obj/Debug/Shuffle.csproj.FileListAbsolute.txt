@@ -2,10 +2,7 @@ c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Shuffl
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Shuffle.dll
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Shuffle.pdb
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Antlr3.Runtime.dll
-c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\EntityFramework.dll
-c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\EntityFramework.SqlServer.dll
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.AspNet.Identity.Core.dll
-c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.AspNet.Identity.Owin.dll
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.dll
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Host.SystemWeb.dll
@@ -36,11 +33,8 @@ c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\System
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\System.Web.WebPages.Razor.xml
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Antlr3.Runtime.pdb
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Newtonsoft.Json.xml
-c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\EntityFramework.xml
-c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\EntityFramework.SqlServer.xml
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.AspNet.Identity.Core.xml
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.AspNet.Identity.Owin.xml
-c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.xml
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Host.SystemWeb.xml
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Security.xml
@@ -50,10 +44,10 @@ c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Micros
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Security.Google.xml
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Security.Twitter.xml
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\obj\Debug\Shuffle.csprojResolveAssemblyReference.cache
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\obj\Debug\Shuffle.dll
 c:\users\steven\documents\visual studio 2013\Projects\Shuffle\Shuffle\obj\Debug\Shuffle.pdb
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoDB.Bson.dll
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoDB.Driver.dll
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoDB.Bson.xml
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoDB.Driver.xml
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoDB.AspNet.Identity.dll

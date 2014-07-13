@@ -11,9 +11,10 @@ namespace Shuffle.DAL
     {
         IEnumerable<Deck> getAllDecks();
         Deck getDeck(string id);
-        IEnumerable<Deck> getDeckByUserId();
+        IEnumerable<Deck> getDeckByUserId(string userId);
         Deck addDeck(Deck item);
         bool isMatchDeck(string[] deck);
+
         void Save();
     }
 

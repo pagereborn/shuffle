@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
 using Shuffle.Models;
+using MongoDB.AspNet.Identity;
 
 namespace Shuffle.Controllers
 {
@@ -21,7 +21,10 @@ namespace Shuffle.Controllers
 
         public AccountController()
         {
+            /*this.UserManager = new UserManager<ApplicationUser>(
+            new UserStore<ApplicationUser>("Shuffle"));*/
         }
+
 
         public AccountController(ApplicationUserManager userManager)
         {
