@@ -7,6 +7,9 @@ using MongoDB.Driver.Builders;
 using MongoDB.Driver.GridFS;
 using MongoDB.Driver.Linq;
 using Shuffle.Models;
+using MongoDB.Bson;
+using MongoDB.AspNet.Identity;
+using System.Dynamic;
 namespace Shuffle.DAL
 {
     public class DeckRepository : IDeckRepository
@@ -42,12 +45,17 @@ namespace Shuffle.DAL
 
         public IEnumerable<Deck> getDeckByUserId(string userId)
         {
-            return null;
+            return _decks.AsQueryable<Deck>().Where(d => d.userID == userId);
         }
 
-        public Deck addDeck(Deck item)
+        public void addDeck(Deck deck)
         {
-            return null;
+            _decks.Insert(deck);
+        }
+        public void removeDeck(string id)
+        {
+            IMongoQuery query = Query.EQ("_id", id);
+            _decks.Remove(query);
         }
         public bool isMatchDeck(string[] deck)
         {

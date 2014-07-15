@@ -159,6 +159,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DeckController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DAL\DeckRepository.cs" />
     <Compile Include="DAL\IDeckRepository.cs" />
@@ -222,6 +223,8 @@
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Deck\Index.cshtml" />
+    <Content Include="Views\Deck\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
