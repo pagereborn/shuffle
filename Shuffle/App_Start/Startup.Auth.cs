@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Google;
 using Owin;
 using System;
 using Shuffle.Models;
+using Microsoft.AspNet.Identity.Owin;
 
 namespace Shuffle
 {
@@ -27,9 +28,9 @@ namespace Shuffle
                 LoginPath = new PathString("/Account/Login"),
                 Provider = new CookieAuthenticationProvider
                 {
-                    /*OnValidateIdentity = SecurityStampValidator.OnValidateIdentity<ApplicationUserManager, ApplicationUser>(
+                    OnValidateIdentity = SecurityStampValidator.OnValidateIdentity<ApplicationUserManager, ApplicationUser>(
                         validateInterval: TimeSpan.FromMinutes(30),
-                        regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager))*/
+                        regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager))
                 }
             });
             

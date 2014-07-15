@@ -17,12 +17,12 @@ namespace Shuffle.Controllers
     [Authorize]
     public class AccountController : Controller
     {
-        private ApplicationUserManager _userManager;
+        private UserManager<ApplicationUser> _userManager;
 
         public AccountController()
         {
-            /*this.UserManager = new UserManager<ApplicationUser>(
-            new UserStore<ApplicationUser>("Shuffle"));*/
+            _userManager = new UserManager<ApplicationUser>(
+            new UserStore<ApplicationUser>("Shuffle"));
         }
 
 
@@ -31,7 +31,8 @@ namespace Shuffle.Controllers
             UserManager = userManager;
         }
 
-        public ApplicationUserManager UserManager {
+        public UserManager<ApplicationUser> UserManager
+        {
             get
             {
                 return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
