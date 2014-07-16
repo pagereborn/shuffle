@@ -22,7 +22,7 @@ namespace Shuffle.DAL
         {
             if (string.IsNullOrWhiteSpace(connection))
             {
-                connection = "mongodb://localhost:27017";
+                connection = "mongodb://192.168.1.11:27017";
             }
             _client = new MongoClient(connection);
             _server = _client.GetServer();
