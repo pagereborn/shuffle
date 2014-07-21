@@ -68,13 +68,13 @@ namespace Shuffle.Controllers
                     Deck deck = new Deck { Id = ObjectId.GenerateNewId().ToString(), userID = User.Identity.GetUserId().ToString(), deck = array2 };
                     _decks.addDeck(deck);
                 }*/
-             
-            return RedirectToAction("Home");
+
+                return RedirectToAction("", "Home");
             //return View();
             }
             else
             {
-                return View();
+                return RedirectToAction("Login", "Account");
             }
 
         }

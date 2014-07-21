@@ -51,3 +51,4 @@ C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\Micros
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Release\Shuffle.dll
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Release\Shuffle.pdb
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Release\Shuffle.csprojResolveAssemblyReference.cache
