@@ -14,7 +14,7 @@ namespace Shuffle.DAL
         IEnumerable<Deck> getDeckByUserId(string userId);
         void addDeck(Deck deck);
         void removeDeck(string id);
-        bool isMatchDeck(string[] deck);
+        bool[] isMatchDeck(string[] deck);
         void Save();
     }
 

@@ -51,4 +51,3 @@ C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoD
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoDB.Bson.xml
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoDB.Driver.xml
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\MongoDB.AspNet.Identity.dll
-C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Debug\Shuffle.csprojResolveAssemblyReference.cache
