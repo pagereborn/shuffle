@@ -68,7 +68,8 @@ namespace Shuffle.Controllers
                     Deck deck = new Deck { Id = ObjectId.GenerateNewId().ToString(), userID = User.Identity.GetUserId().ToString(), deck = array2 };
                     _decks.addDeck(deck);
                 }*/
-             
+                
+                ViewData["Deck"] = parts[51].Split(',').ToList();
             return RedirectToAction("Index");
             //return View();
             }

@@ -9,7 +9,11 @@
     {   @Html.AntiForgeryToken()
         <button type="input" class="btn btn-default btn-lg"><font color="black">♠</font> <font color="red"> ♥</font> <font color="green"> ♣</font> <font color="blue">♦</font>  </button>
     }
-    @Html.Raw(ViewData["Deck"])
+    @foreach (var item in (List<string>)ViewData["Deck"])
+    {
+        string name = "/Images/" + item + ".png";
+        <img style ="max-width:200px; width:100%;" src=@name alt="eSports Fantasy Baseball" />
+    }
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 </center>
