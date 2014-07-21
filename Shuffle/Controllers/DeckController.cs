@@ -54,9 +54,11 @@ namespace Shuffle.Controllers
                 bool match = false;
 
                 r.Shuffle(array);
-                match = _decks.isMatchDeck(array);
+                //match = _decks.isMatchDeck(array);
                 string[] parts = getDeckParts(array);
-                _decks.addDeck(makeDeck(User.Identity.GetUserId().ToString(), parts));
+                Deck deck = makeDeck(User.Identity.GetUserId().ToString(), parts);
+                var matches = _decks.isMatchDeck(deck);
+                _decks.addDeck(deck);
                 //ApplicationUser user = await myuser.FindByIdAsync(User.Identity.GetUserId().ToString());
 
                 /*while (match != true) {
@@ -68,6 +70,7 @@ namespace Shuffle.Controllers
                     Deck deck = new Deck { Id = ObjectId.GenerateNewId().ToString(), userID = User.Identity.GetUserId().ToString(), deck = array2 };
                     _decks.addDeck(deck);
                 }*/
+                
                 return View();
             }
             else

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Shuffle-Web.config Connection String" description="Shuffle Connection String used in web.config by the application to access the database." defaultValue="mongodb://Shuffle:cfXvkQcf_yd7Pch4K1R4UeZ79QBuqwNngQF_XudB6go-@ds035787.mongolab.com:35787/Shuffle" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Steven\\Documents\\Visual\ Studio\ 2013\\Projects\\Shuffle\\Shuffle\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Shuffle']/@connectionString" />
+  </parameter>
+</parameters>
