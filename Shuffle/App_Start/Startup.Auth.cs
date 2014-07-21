@@ -41,19 +41,19 @@ namespace Shuffle
             //    clientId: "",
             //    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            app.UseTwitterAuthentication(
+               consumerKey: "KlUUalP70bRDwmHKo8hALitTB",
+               consumerSecret: "WeNUGn1fpkiylB9KphgJeIZxX5zEjeYqYjgzq4F8VYCkjgnDWk");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "432390796901095",
+               appSecret: "c50e288ae989b87a6a422b2e88aa77a0");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "362032104534-vgt0hli2ot9k8bfrrkvnf4tbkja9fq65.apps.googleusercontent.com",
+                ClientSecret = "mywm4F97MUoTnk2Dpm8FiFOY"
+            });
         }
     }
 }

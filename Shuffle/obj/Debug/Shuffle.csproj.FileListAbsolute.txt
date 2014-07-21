@@ -51,4 +51,3 @@ C:\Users\Coding\Documents\GitHub\shuffle\Shuffle\bin\Microsoft.Owin.Security.Twi
 C:\Users\Coding\Documents\GitHub\shuffle\Shuffle\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Coding\Documents\GitHub\shuffle\Shuffle\obj\Debug\Shuffle.dll
 C:\Users\Coding\Documents\GitHub\shuffle\Shuffle\obj\Debug\Shuffle.pdb
-C:\Users\Coding\Documents\GitHub\shuffle\Shuffle\obj\Debug\Shuffle.csprojResolveAssemblyReference.cache
