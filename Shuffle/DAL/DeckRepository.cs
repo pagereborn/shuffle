@@ -48,6 +48,7 @@ namespace Shuffle.DAL
 
         public void addDeck(Deck deck)
         {
+            _decks.Insert(deck);
         }
         public void removeDeck(string id)
         {
