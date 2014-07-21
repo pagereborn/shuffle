@@ -1,11 +1,18 @@
-﻿
-@{
-    ViewBag.Title = "Index";
+﻿@{
+    ViewBag.Title = "Shuffle";
 }
 
-<h2>Index</h2>
+<center>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <h1><font color="white">Shuffle</font></h1>
 @using (Html.BeginForm("Create", "Deck", FormMethod.Post))
-{
-    @Html.AntiForgeryToken()
-    <input type="submit" value="Shuffle">
+{   @Html.AntiForgeryToken()
+    <button type="input" class="btn btn-default btn-lg"><font color="black">♠</font> <font color="red"> ♥</font> <font color="green"> ♣</font> <font color="blue">♦</font>  </button>
 }
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</center>
+
+
+
+ 

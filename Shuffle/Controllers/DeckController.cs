@@ -24,11 +24,11 @@ namespace Shuffle.Controllers
         // GET: Deck
         UserStore<ApplicationUser> myuser = new UserStore<ApplicationUser>("Shuffle");
 
-        public ActionResult Index()
+       /* public ActionResult Index()
         {
             //myuser.FindByIdAsync
             return View();
-        }
+        }*/
 
         public IQueryable<Deck> Get()
         {
@@ -51,8 +51,6 @@ namespace Shuffle.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                bool match = false;
-
                 r.Shuffle(array);
                 //match = _decks.isMatchDeck(array);
                 string[] parts = getDeckParts(array);
@@ -70,8 +68,9 @@ namespace Shuffle.Controllers
                     Deck deck = new Deck { Id = ObjectId.GenerateNewId().ToString(), userID = User.Identity.GetUserId().ToString(), deck = array2 };
                     _decks.addDeck(deck);
                 }*/
-                
-                return View();
+             
+            return RedirectToAction("Home");
+            //return View();
             }
             else
             {
@@ -153,6 +152,7 @@ namespace Shuffle.Controllers
                 part51 = parts[50],
                 part52 = parts[51]
             };
+
         }
 
 
