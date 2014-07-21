@@ -15,6 +15,8 @@ namespace Shuffle.DAL
         void addDeck(Deck deck);
         void removeDeck(string id);
         bool[] isMatchDeck(Deck deck);
+        int numDecks();
+        int numDecksbyUser(string userId);
         void Save();
     }
 

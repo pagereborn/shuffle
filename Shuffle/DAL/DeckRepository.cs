@@ -58,19 +58,104 @@ namespace Shuffle.DAL
         {
             bool[] anyMatches  = new bool[52];
             Deck match1 = _decks.AsQueryable().Where(d => d.part1 == deck.part1).FirstOrDefault();
+            if (match1 == null)
+            {
+                for (int i = 0; i < anyMatches.Count(); i++)
+                {
+                    anyMatches[i] = false;
+                }
+                return anyMatches;
+            }
+            else
+            { 
+                anyMatches[0] = true;
+            }
+
             Deck match2 = _decks.AsQueryable().Where(d => d.part2 == deck.part2).FirstOrDefault();
+            if (match2 == null)
+            {
+                for (int i = 1; i < anyMatches.Count(); i++)
+                {
+                    anyMatches[i] = false;
+                }
+                return anyMatches;
+            }
+            else
+            { 
+                anyMatches[1] = true;
+            }
             Deck match3 = _decks.AsQueryable().Where(d => d.part3 == deck.part3).FirstOrDefault();
+            if (match3 == null)
+            {
+                for (int i = 2; i < anyMatches.Count(); i++)
+                {
+                    anyMatches[i] = false;
+                }
+                return anyMatches;
+            }
+            else
+            {
+                anyMatches[2] = true;
+            }
             Deck match4 = _decks.AsQueryable().Where(d => d.part4 == deck.part4).FirstOrDefault();
+            if (match4 == null)
+                anyMatches[3] = false;
+            else
+                anyMatches[3] = true;
             Deck match5 = _decks.AsQueryable().Where(d => d.part5 == deck.part5).FirstOrDefault();
+            if (match5 == null)
+                anyMatches[4] = false;
+            else
+                anyMatches[4] = true;
+
             Deck match6 = _decks.AsQueryable().Where(d => d.part6 == deck.part6).FirstOrDefault();
+            if (match6 == null)
+                anyMatches[5] = false;
+            else
+                anyMatches[5] = true;
             Deck match7 = _decks.AsQueryable().Where(d => d.part7 == deck.part7).FirstOrDefault();
+            if (match7 == null)
+                anyMatches[6] = false;
+            else
+                anyMatches[6] = true;
             Deck match8 = _decks.AsQueryable().Where(d => d.part8 == deck.part8).FirstOrDefault();
+            if (match8 == null)
+                anyMatches[7] = false;
+            else
+                anyMatches[7] = true;
             Deck match9 = _decks.AsQueryable().Where(d => d.part9 == deck.part9).FirstOrDefault();
+            if (match9 == null)
+                anyMatches[8] = false;
+            else
+                anyMatches[8] = true;
             Deck match10 = _decks.AsQueryable().Where(d => d.part10 == deck.part10).FirstOrDefault();
+            if (match10 == null)
+                anyMatches[9] = false;
+            else
+                anyMatches[9] = true;
             Deck match11 = _decks.AsQueryable().Where(d => d.part11 == deck.part11).FirstOrDefault();
+            if (match11 == null)
+                anyMatches[10] = false;
+            else
+                anyMatches[10] = true;
             Deck match12 = _decks.AsQueryable().Where(d => d.part12 == deck.part12).FirstOrDefault();
+
+            if (match12 == null)
+                anyMatches[11] = false;
+            else
+                anyMatches[11] = true;
             Deck match13 = _decks.AsQueryable().Where(d => d.part13 == deck.part13).FirstOrDefault();
+            if (match13 == null)
+                anyMatches[12] = false;
+            else
+                anyMatches[12] = true;
+
             Deck match14 = _decks.AsQueryable().Where(d => d.part14 == deck.part14).FirstOrDefault();
+            if (match14 == null)
+                anyMatches[13] = false;
+            else
+                anyMatches[13] = true;
+
             Deck match15 = _decks.AsQueryable().Where(d => d.part15 == deck.part15).FirstOrDefault();
             Deck match16 = _decks.AsQueryable().Where(d => d.part16 == deck.part16).FirstOrDefault();
             Deck match17 = _decks.AsQueryable().Where(d => d.part17 == deck.part17).FirstOrDefault();
@@ -109,76 +194,14 @@ namespace Shuffle.DAL
             Deck match50 = _decks.AsQueryable().Where(d => d.part50 == deck.part50).FirstOrDefault();
             Deck match51 = _decks.AsQueryable().Where(d => d.part51 == deck.part51).FirstOrDefault();
             Deck match52 = _decks.AsQueryable().Where(d => d.part52 == deck.part52).FirstOrDefault();
-            if (match1 == null)
-                anyMatches[0] = false;
-            else
-                anyMatches[0] = true;
+            
+           
 
-            if (match2 == null)
-                anyMatches[1] = false;
-            else
-                anyMatches[1] = true;
+         
 
-            if (match3 == null)
-                anyMatches[2] = false;
-            else
-                anyMatches[2] = true;
 
-            if (match4 == null)
-                anyMatches[3] = false;
-            else
-                anyMatches[3] = true;
-
-            if (match5 == null)
-                anyMatches[4] = false;
-            else
-                anyMatches[4] = true;
-
-            if (match6 == null)
-                anyMatches[5] = false;
-            else
-                anyMatches[5] = true;
-
-            if (match7 == null)
-                anyMatches[6] = false;
-            else
-                anyMatches[6] = true;
-
-            if (match8 == null)
-                anyMatches[7] = false;
-            else
-                anyMatches[7] = true;
-
-            if (match9 == null)
-                anyMatches[8] = false;
-            else
-                anyMatches[8] = true;
-
-            if (match10 == null)
-                anyMatches[9] = false;
-            else
-                anyMatches[9] = true;
-
-            if (match11 == null)
-                anyMatches[10] = false;
-            else
-                anyMatches[10] = true;
-
-            if (match12 == null)
-                anyMatches[11] = false;
-            else
-                anyMatches[11] = true;
-
-            if (match13 == null)
-                anyMatches[12] = false;
-            else
-                anyMatches[12] = true;
-
-            if (match14 == null)
-                anyMatches[13] = false;
-            else
-                anyMatches[13] = true;
-
+          
+           
             if (match15 == null)
                 anyMatches[14] = false;
             else
@@ -374,6 +397,15 @@ namespace Shuffle.DAL
         public void Save()
         {
 
+        }
+        public int numDecks()
+        {
+            return Convert.ToInt32(_decks.FindAll().Count());
+        }
+        public int numDecksbyUser(string userId)
+        {
+            IMongoQuery query = Query.EQ("userID", userId);
+            return Convert.ToInt32(_decks.Find(query).Count());
         }
     }
 }

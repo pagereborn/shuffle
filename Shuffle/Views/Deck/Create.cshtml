@@ -3,17 +3,23 @@
 }
 
 <center>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     <h1><font color="white">Shuffle</font></h1>
+
     @using (Html.BeginForm("Create", "Deck", FormMethod.Post))
     {   @Html.AntiForgeryToken()
         <button type="input" class="btn btn-default btn-lg"><font color="black">♠</font> <font color="red"> ♥</font> <font color="green"> ♣</font> <font color="blue">♦</font>  </button>
     }
-    @foreach (var item in (List<string>)ViewData["Deck"])
+    @if (ViewData["Deck"] != null)
     {
-        string name = "/Images/" + item + ".png";
-        <img style ="max-width:200px; width:100%;" src=@name alt="eSports Fantasy Baseball" />
+        foreach (var item in (string[])ViewData["Deck"])
+        {
+            string name = "/Images/" + item.ToString() + ".png";
+            
+                <img style="max-width:83px; width:100%;" src=@name alt="eSports Fantasy Baseball" />
+            
+        }
     }
-
+    
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 </center>
