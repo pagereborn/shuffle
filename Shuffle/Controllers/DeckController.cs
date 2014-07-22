@@ -24,11 +24,11 @@ namespace Shuffle.Controllers
         // GET: Deck
         UserStore<ApplicationUser> myuser = new UserStore<ApplicationUser>("Shuffle");
 
-       /* public ActionResult Index()
+        public ActionResult Index()
         {
             //myuser.FindByIdAsync
             return View();
-        }*/
+        }
 
         public IQueryable<Deck> Get()
         {
@@ -69,12 +69,17 @@ namespace Shuffle.Controllers
                     _decks.addDeck(deck);
                 }*/
 
-                return RedirectToAction("", "Home");
+
+                ViewData["Deck"] = array;
+
+
+                return View();
+
             //return View();
             }
             else
             {
-                return RedirectToAction("Login", "Account");
+                return View();
             }
 
         }
