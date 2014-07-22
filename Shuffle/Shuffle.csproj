@@ -196,6 +196,22 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\Shuffle.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Themes\assets\css\bootstrap.css" />
+    <Content Include="Themes\assets\css\main.css" />
+    <Content Include="Themes\assets\css\soon.css" />
+    <Content Include="Themes\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Themes\assets\img\slider\1.jpg" />
+    <Content Include="Themes\assets\img\slider\2.jpg" />
+    <Content Include="Themes\assets\img\slider\3.jpg" />
+    <Content Include="Themes\assets\img\slider\4.jpg" />
+    <Content Include="Themes\assets\js\bootstrap.js" />
+    <Content Include="Themes\assets\js\jquery.min.js" />
+    <Content Include="Themes\assets\js\modernizr.custom.js" />
+    <Content Include="Themes\assets\js\respond.min.js" />
+    <Content Include="Themes\assets\js\soon\custom.js" />
+    <Content Include="Themes\assets\js\soon\jquery.themepunch.revolution.min.js" />
+    <Content Include="Themes\assets\js\soon\plugins.js" />
+    <Content Include="Themes\index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -229,6 +245,17 @@
     <Content Include="Views\Home\FAQ.cshtml" />
     <Content Include="Views\Deck\Index.cshtml" />
     <Content Include="Views\Deck\Create.cshtml" />
+    <Content Include="Themes\.DS_Store" />
+    <Content Include="Themes\assets\.DS_Store" />
+    <Content Include="Themes\assets\css\.DS_Store" />
+    <Content Include="Themes\assets\fonts\.DS_Store" />
+    <Content Include="Themes\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Themes\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Themes\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Themes\assets\img\.DS_Store" />
+    <Content Include="Themes\assets\img\slider\.DS_Store" />
+    <Content Include="Themes\assets\js\.DS_Store" />
+    <Content Include="Themes\assets\js\soon\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
