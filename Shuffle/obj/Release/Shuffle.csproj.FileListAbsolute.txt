@@ -49,6 +49,5 @@ C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\Micros
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Debug\Shuffle.dll
-C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Debug\Shuffle.pdb
-C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Debug\Shuffle.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Release\Shuffle.dll
+C:\Users\Steven\Documents\Visual Studio 2013\Projects\Shuffle\Shuffle\obj\Release\Shuffle.pdb
